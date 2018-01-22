@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>DJI 商城手机版</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+	<meta name="description" content="DJI大疆创新官方商城 - 直营DJI大疆创新所有产品，包括精灵Phantom系列和悟Inspire 1系列无人机，灵眸Osmo手持云台相机，如影Ronin系列，飞控系统以及专业航拍设备等，同时为用户提供客户服务及售后支持。">
+	<meta name="keywords" content="DJI, 大疆, 大疆创新, Phantom, 精灵, 无人机, 4轴飞行器, 航拍">
+	<link rel="shortcut icon"  href="favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="style/iconfont.css">
+	<link rel="stylesheet" type="text/css" href="style/m_base.css">
+	<link rel="stylesheet" type="text/css" href="style/m_base1.css">
+	<link rel="stylesheet" type="text/css" href="style/swiper-4.1.0.min.css">
+	<link rel="stylesheet" type="text/css" href="style/m_index.css">
+	<script src="js/adaptive.js"></script>
+</head>
+
+
+
+<body>
+	<!--header-->
+<header>
+	<nav class="m-nav">
+		<button class="iconfont menu-icon">&#xe62f;</button>
+		<a href="#" class="logo-link"></a>
+		<a href="#" class="account-btn"></a>
+		<a href="#" class="cart-btn"><span style="opacity: 1;"></span></a>
+	</nav>
+</header>
+<!--header end-->
+
+<!--main-->
+<main class="wrap">
+	<!--m_banner-->
+	<div class="m_banner">
+    	<!--swiper插件开始-->
+    	<div class="swiper-container swiper-banner">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="images/dj1.jpeg"></div>
+                <div class="swiper-slide"><img src="images/dj2.jpg"></div>
+                <div class="swiper-slide"><img src="images/dj3.jpg"></div>
+                <div class="swiper-slide"><img src="images/dj4.jpg"></div>
+                <div class="swiper-slide"><img src="images/dj5.jpg"></div>
+            </div>
+            <!-- 如果需要分页器 -->
+            <div class="swiper-pagination banner-pag"></div>
+  
+		</div>
+        <!--swiper插件结束-->
+    </div>
+    <!--m_banner end-->
+    
+</main>
+<!--main--> 
+<script src="js/swiper-4.1.0.min.js"></script>
+<script>        
+  var mySwiper = new Swiper ('.swiper-container', {
+    direction: 'horizontal',
+    loop: true,
+    autoplay:true,
+	 autoplay: {
+    delay: 3000,
+    stopOnLastSlide: false,
+    disableOnInteraction:false,
+    },
+    // 如果需要分页器
+    pagination: {
+      el: '.swiper-pagination',
+	  clickable :true,
+    },
+    
+    // 如果需要前进后退按钮
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    
+    
+  })        
+  </script>
+
+
+
+</body>
+</html>
+
+
+
+
