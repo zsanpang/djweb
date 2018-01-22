@@ -1,5 +1,5 @@
 /* CSS Document */
-.wrap{ width:100%; /*max-width:7.5rem; min-width:3.2rem; */background:rgba(255,255,255,1); margin:0 auto;-webkit-overflow-scrolling:touch;position: absolute; top:1.1rem;  left:50%; transform:translateX(-50%); /*overflow-y:scroll;*/}
+.wrap{ width:100%; /*max-width:7.5rem; min-width:3.2rem; */background:rgba(255,255,255,1); margin:0 auto;margin-bottom: 0.2rem; -webkit-overflow-scrolling:touch;position: absolute; top:1.1rem;  left:50%; transform:translateX(-50%); /*overflow-y:scroll;*/}
 .m_banner{ width:100%;height: 4.12rem;}
 .m_banner .swiper-container{ width:100%;}
 .m_banner .swiper-container .swiper-slide img{ width:100%;height: 100%;}

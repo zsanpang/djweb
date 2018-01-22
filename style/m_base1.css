@@ -35,21 +35,17 @@ html{font-size:100px;/*作为一个基本单位   100px=1rem*/}
 
 
 
-@font-face {
-  font-family: 'iconfont';  /* project id 527549 */
-  src: url('http://at.alicdn.com/t/font_527549_vrkxivurgnly2e29.eot');
-  src: url('http://at.alicdn.com/t/font_527549_vrkxivurgnly2e29.eot?#iefix') format('embedded-opentype'),
-  url('http://at.alicdn.com/t/font_527549_vrkxivurgnly2e29.woff') format('woff'),
-  url('http://at.alicdn.com/t/font_527549_vrkxivurgnly2e29.ttf') format('truetype'),
-  url('http://at.alicdn.com/t/font_527549_vrkxivurgnly2e29.svg#iconfont') format('svg');
-}
-.iconfont{
-  font-family:"iconfont" !important;
-  font-size:16px;font-style:normal;
-  -webkit-font-smoothing: antialiased;
-  -webkit-text-stroke-width: 0.2px;
-  -moz-osx-font-smoothing: grayscale;
-}
+@font-face {font-family: 'iconfont';
+			src: url('../fonts/iconfont.eot');
+			src: url('../fonts/iconfont.eot?#iefix') 
+			format('embedded-opentype'), 
+			url('../fonts/iconfont.woff') format('woff'), 
+			url('../fonts/iconfont.ttf') format('truetype'),
+			 url('../fonts/iconfont.svg#iconfont') format('svg');}
+.iconfont {font-family: "iconfont" !important;
+			font-size: 24px;font-style: normal;-webkit-font-smoothing: antialiased;
+			-webkit-text-stroke-width: 0.2px;-moz-osx-font-smoothing: grayscale;
+			color: #707473;text-align:center;line-height: 16px;}
 /*header*/
 header{width: 100%;min-height: 0.88rem; position: fixed;top: 0;left: 0;z-index: 1000;transition: height ease-in 200ms;/*max-width:7.5rem; min-width:3.2rem; left:50%; transform:translateX(-50%); */}
 header .m-nav{width: 100%; position: relative;z-index: 1002;border-bottom: 1px solid transparent;box-shadow: 0 1px 6px rgba(0,0,0,.12), 0 1px 4px rgba(0,0,0,.12);background: #fff;}
