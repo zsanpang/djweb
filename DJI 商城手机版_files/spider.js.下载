@@ -1,0 +1,14 @@
+(function () {
+  if ((typeof newrelic === 'object') && newrelic.setCustomAttribute) {
+    if (!window._publisher_info_set) {
+      newrelic.setCustomAttribute('publisher', "406049");
+      newrelic.setCustomAttribute('promotion_type', "other");
+      newrelic.setCustomAttribute('publisher_country', "cn");
+      newrelic.setCustomAttribute('publisher_main_referer', "");
+      newrelic.setCustomAttribute('is_new_publisher', "false");
+      newrelic.setCustomAttribute('affiliate_type', "DDSD");
+      newrelic.setCustomAttribute('affiliate_name', "DDSD");
+    }
+  }
+
+})();

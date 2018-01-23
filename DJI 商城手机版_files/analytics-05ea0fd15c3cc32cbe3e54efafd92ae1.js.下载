@@ -1,0 +1,1 @@
+var analy={initial:function(){this.spider()},spider:function(){this.create_script("//click.dji.com/statistics/spider.js")},create_script:function(i){!function(i,t,c,n){var a=t.createElement(c);a.async=1,a.src=n,t.body.appendChild(a)}(window,document,"script",i)}};analy.initial();
