@@ -14,6 +14,23 @@
 	<link rel="stylesheet" type="text/css" href="style/m_index.css">
     <link rel="stylesheet" type="text/css" href="js/swiper-4.1.0.min.js">
 	<script src="js/adaptive.js"></script>
+    <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+    <script> 
+$(document).ready(function(){
+  $(".menu-icon").click(function(){
+    $(".app-nav").slideToggle("slow");
+    $(".m-nav").css('position','fixed');
+  });
+});
+</script>
+
+    <script> 
+$(document).ready(function(){
+  $(".fold").click(function(){
+    $(".fold-sub").slideToggle("slow");
+  });
+});
+</script>
 </head>
 
 
@@ -21,12 +38,67 @@
 <body>
 	<!--header-->
 <header>
+
 	<nav class="m-nav">
 		<button class="iconfont menu-icon">&#xe62f;</button>
 		<a href="#" class="logo-link"></a>
 		<a href="#" class="account-btn"></a>
 		<a href="#" class="cart-btn"><!-- <span style="opacity: 1;"></span> --></a>
 	</nav>
+
+
+
+    <!-- 切屏 -->
+    <div class="app-nav">
+        <!-- search -->
+        <div class="header_search">
+            <form action="" method="post">
+                <a href="" class="search-btn"></a>
+                <div class="search-input"><input type="search" placeholder="搜索产品"></div>
+            </form>
+        </div>
+
+        <!-- menu -->
+        <div class="nav-menu">
+            <div class="nav-items">
+                <div>
+                    <h2 class="subtitle">商品分类</h2>
+                    <ul class="ul1">
+                        <li class="menu-item menu-iteam1"><a href=""><div><img src="images/1.svg" alt=""></div><p>"晓"Spark</p></a></li>
+                        <li class="menu-item menu-iteam1"><a href=""><div><img src="images/2.svg" alt=""></div><p>"御"Mavic</p></a></li>
+                        <li class="menu-item menu-iteam1"><a href=""><div><img src="images/3.svg" alt=""></div><p>精灵 Phantom</p></a></li>
+                        <li class="menu-item menu-iteam1"><a href=""><div><img src="images/4.svg" alt=""></div><p>灵眸 Osmo</p></a></li>
+                        <li class="menu-item menu-iteam1"><a href=""><div><img src="images/5.svg" alt=""></div><p>DJI 飞行眼镜</p></a></li>
+                        <li class="menu-item menu-iteam1"><a href=""><div><img src="images/6.svg" alt=""></div><p>"悟"Inspire</p></a></li>
+                        <li class="menu-item menu-iteam1"><a href=""><div><img src="images/7.svg" alt=""></div><p>如影 Ronin</p></a></li>
+                        <li class="menu-item menu-iteam1"><a href=""><div><img src="images/dj9.svg" alt=""></div><p>睿炽科技丨特洛</p></a></li>
+                        <li class="menu-item menu-iteam1"><a href=""><div><img src="images/9.svg" alt=""></div><p>增值服务</p></a></li>
+                        <li class="menu-item menu-iteam1"><a href="javascript:;" class="fold"><p>其他</p></a></li>
+                        <div class="fold-sub" style="display: none;">
+                            <li class="menu-item menu-iteam1"><a href=""><div><img src="images/dj7.svg" alt=""></div><p>行业应用</p></a></li>
+                            <li class="menu-item menu-iteam1"><a href=""><div><img src="images/dj8.svg" alt=""></div><p>开发者套件</p></a></li>
+                            <li class="menu-item menu-iteam1"><a href=""><div><img src="images/10.svg" alt=""></div><p>DJI 创意周边</p></a></li>
+                        </div>
+                    </ul>
+                </div>
+                <div>
+                    <h2 class="subtitle">优惠</h2>
+                    <ul class="ul1">
+                        <li class="menu-item menu-iteam1"><a href=""><p>教育优惠</p></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="product-help">
+                <h2>服务与支持</h2>
+                <ul>
+                    <li class="email"><a href="">邮箱</a></li>
+                    <li class=" chat"><a href="">在线交谈</a></li>
+                    <li class=" phone"><a href="">电话</a></li>
+                </ul>
+            </div>
+            <div class="change-country"><a href=""><span>更改国家或地区</span></a></div>
+        </div>
+    </div>
 </header>
 <!--header end-->
 
@@ -37,15 +109,14 @@
     	<!--swiper插件开始-->
     	<div class="swiper-container swiper-banner">
             <div class="swiper-wrapper">
-                <div class="swiper-slide"><img src="images/dj1.jpeg"></div>
-                <div class="swiper-slide"><img src="images/dj2.jpg"></div>
-                <div class="swiper-slide"><img src="images/dj3.jpg"></div>
+                <div class="swiper-slide"><img src="images/dj10.jpg"></div>
+                <div class="swiper-slide"><img src="images/dj11.jpg"></div>
+                <div class="swiper-slide"><img src="images/dj12.jpg"></div>
                 <div class="swiper-slide"><img src="images/dj4.jpg"></div>
                 <div class="swiper-slide"><img src="images/dj5.jpg"></div>
             </div>
             <!-- 如果需要分页器 -->
             <div class="swiper-pagination banner-pag"></div>
-  
 		</div>
         <!--swiper插件结束-->
     </div>

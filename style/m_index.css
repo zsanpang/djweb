@@ -29,7 +29,7 @@
 #collections .container .swiper-down .swiper-wrapper .swiper-slide{float: left;margin-left: 0.16rem;/*width: 3.76rem;*/height: 4rem;}
 #collections .container .swiper-down .swiper-wrapper .swiper-slide a div{overflow: hidden;height: 2.5rem;font-size: 0;text-align: center;border: 1px solid rgba(0,0,0,.08); margin-right:0!important; }
 #collections .container .swiper-down .swiper-wrapper .swiper-slide a div img{display: inline-block;max-height: 100%;vertical-align: middle;border:0;}
-#collections .container .swiper-down .swiper-wrapper .swiper-slide a .price-title{display: -webkit-box;padding: 0.06rem 0;line-height: 0.4rem;font-size: 0.26rem;color: #707473;overflow: hidden;text-overflow: ellipsis;-webkit-line-clamp: 2;-webkit-box-orient: vertical;} 
+#collections .container .swiper-down .swiper-wrapper .swiper-slide a .price-title{display: -webkit-box;padding: 0.06rem 0;line-height: 0.4rem;font-size: 0.24rem;color: #707473;overflow: hidden;text-overflow: ellipsis;-webkit-line-clamp: 2;-webkit-box-orient: vertical;} 
 #collections .container .swiper-down .swiper-wrapper .swiper-slide a p{font-size: 0.28rem;color: #2d2d2d;}    
 #collections .container .swiper-down .swiper-wrapper .swiper-slide a p span{color: #fc495f;font-size: 0.24rem;}    
     
