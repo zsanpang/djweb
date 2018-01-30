@@ -4,7 +4,7 @@
 .login{color: #4c4c4c;font-size: 0.36rem;margin-bottom: 0.8rem;text-align: center;}
 .d-input{width: 100%;height: 0.78rem;margin: 20px 0 0;display: flex; position: relative;border-radius: 2px;border: 1px solid #ddd;}
 .d-input ::-webkit-input-placeholder{/*position: absolute;top: 0.28rem;left: 0.2rem;*/font-size: 0.28rem;line-height: 0.28rem;}
-.d-input input{position: relative; width: 100%;height: 0.88rem;padding-left: 0.3rem;display: block;caret-color:#0600ff;transition-property: font-size;border: none;background: transparent;/*color:#1181f2;*/font-size: 0.32rem;line-height: 0.48rem;}    
+.d-input input{position: relative; width: 100%;height: 0.88rem;padding-left: 0.3rem;display: block;caret-color:#0600ff;transition-property: font-size;border: none;background: transparent;/*color:#1181f2;*/font-size: 0.32rem;/*line-height: 0.88rem;*/}    
 .child button{width: 100%;text-align: center;border-radius: 2px;cursor: pointer;height: 0.88rem;margin-top: 0.4rem;font-size: 0.32rem;background: #44a8f2;border: 1px solid #44a8f2;}
 .child button a{color: #fff;text-decoration: none;}
 .tips{ width: 100%;/*float: right;*/font-size: 0.24rem;margin-top: 0.38rem; }
@@ -14,7 +14,7 @@
     
     
    
-footer{width:100%;height: auto; max-width:7.5rem; min-width:3.2rem;text-align: center; z-index: 100;color: #979797; background:#f7f8f9;  position:absolute; bottom:0; left:50%; transform:translateX(-50%);}
+footer{width:100%;max-width:7.5rem; min-width:3.2rem;text-align: center; z-index: 100;color: #979797; background:#f7f8f9;  position:fixed; bottom:0; left:50%; transform:translateX(-50%);}
 footer p:nth-child(1){margin-top:0.56rem;}
 footer p:nth-child(2){margin-top:0.24rem;}
 footer p:nth-child(3){margin-top:0.24rem;}
@@ -24,12 +24,12 @@ footer p a,footer p a:link,footer p a:visited{margin-right: 0.12rem;text-decorat
 
 /*注册*/
 .right{width:100%;height:90%; max-width:7.5rem; min-width:3.2rem;background:  rgb(255,255,255);margin:0 auto;-webkit-overflow-scrolling:touch;position: absolute; top:1.1rem;  left:50%; transform:translateX(-50%);}
-.hd{width:100%;cursor: pointer;color: #333;line-height: 0.58rem;text-align: center;padding-top: 1.2rem;}
+.hd{width:100%;cursor: pointer;color: #979797;line-height: 0.58rem;text-align: center;padding-top: 1.2rem;}
 .hd ul{width: 6.3rem;height:0.8rem ;padding:0 1.26rem;margin:0 auto;}
 .hd ul li{float: left;width: 1.86rem;text-align:center; height: 0.8rem; background-color: #fff;line-height: 0.8rem;}
 .hd ul .tab_on{color: #333;border-bottom: 2px solid #44a8f2;}
-/*.bd{display: block;}
-.bd1{display: none;}*/
+.bd{display: block;}
+.bd1{display: none;}
 
 
 .bd,.bd1{width: 6.3rem;height: 5.1rem;margin:0 auto;}
@@ -40,7 +40,7 @@ footer p a,footer p a:link,footer p a:visited{margin-right: 0.12rem;text-decorat
 .bd1 .d-input ::-webkit-input-placeholder{color: #979797; }
 
 .bd .phone-box .tip1{border: 0 none;}
-.bd .phone-box .d-input .tip{width: 3.16rem;height: 0.76rem;border-radius: 2px;border: 1px solid #ddd;padding: 0;margin-right: 0.3rem;padding-left: 0.3rem;}
+.bd .phone-box .d-input .tip{width: 3.16rem;height: 0.76rem; border-radius: 2px;border: 1px solid #ddd;padding: 0;margin-right: 0.3rem;padding-left: 0.3rem;}
 .bd .phone-box .d-input .secondary1{width: 2.82rem;height: 0.76rem;line-height: 0.76rem;background: #fff;border: 1px solid #44a8f2; color: #44a8f2;}
 
 
