@@ -1,7 +1,7 @@
 /* CSS Document */
 /*图区*/
 .wrap{ width:100%; max-width:7.5rem; min-width:3.2rem; background:rgb(247, 248, 250); margin:0 auto;-webkit-overflow-scrolling:touch;position: absolute; top:1.1rem;  left:50%; transform:translateX(-50%);/* overflow-y:scroll;*/}
-.m_banner{ width:100%;margin-bottom: 0.2rem;}
+.m_banner{ width:100%;}
 .m_banner .swiper-container{ width:100%;}
 .m_banner .swiper-container .swiper-slide img{ width:100%;height: 100%;}
 .m_banner .swiper-pagination-bullet {width: 0.8rem;height: 0.04rem;display: inline-block;background: #fff;opacity: 0.2;border-radius:0;}
@@ -10,7 +10,7 @@
 
 
 /*展示*/
-#promotions{width: 100%;height: 2.08rem;padding-bottom: 0.2rem;}
+#promotions{width: 100%;height: 2.08rem;padding-bottom: 0.2rem;margin-top: 0.2rem;}
 #promotions ul li{float: left;overflow: hidden;width: 50%;min-height: 1.6rem;}
 #promotions ul li a{position: relative;display: block;width: 100%;color: #fff;overflow: hidden;}
 #promotions ul li a img{display: block;width: 100%;border: 0;vertical-align: middle;}
